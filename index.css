@@ -1,0 +1,725 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(207, 205, 205);
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    background: url("/images/image-hero-desktop.jpg");
+    background-size: cover;
+}
+.menu-btn{
+    width: 30px;
+    
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background: white;
+    margin: 5px;
+    display: none;
+    
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+h3{
+    color: white;
+}
+.navlinks{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navlinks li{
+    list-style: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: white;
+}
+.div1{
+    width: 550px;
+    height: 200px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.btn1{
+    border: none;
+    outline: none;
+    background: rgb(123, 209, 123);
+    width: 130px;
+    height: 50px;
+    border-radius: 40%;
+    position: absolute;
+    left: 20px;
+    top: 125px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background: #35858B;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn2{
+    position: absolute;
+    right: 30px;
+    top: 125px;
+    border: none;
+    outline: none;
+    width: 130px;
+    height: 60px;
+    border-radius: 40%;
+    background: rgb(218, 216, 216);
+    
+}
+.btn2 a{
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 24px;
+    color: grey;
+}
+svg{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0px;
+    top: 3px;
+}
+.div2{
+    width: 550px;
+    height: 200px;
+    background: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+.p1{
+    color: grey;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    
+}
+.p2{
+    color: grey;
+    position: absolute;
+    left: 220px;
+    top: 60px;
+}
+.p3{
+    color: grey;
+    position: absolute;
+    left: 400px;
+    top: 60px;
+}
+.about{
+    width: 550px;
+    height: 1000px;
+    background: white;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+.p4{
+    font-size: 12px;
+}
+.p5{
+    font-size: 12px;
+}
+.div3{
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    border: 2px solid grey;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+}
+h4{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.p6{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.p7{
+    position: absolute;
+    top: 115px;
+    font-size: 15px;
+    left: 6px;
+    color: grey;
+   
+}
+.p8{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+.btn3{
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    border-radius: 12px;
+    border: none;
+    height: 25px;
+    background: #35858B;
+}
+.btn3 a{
+    text-decoration: none;
+    color: white;
+}
+.div4{
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    border: 2px solid grey;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.header1{
+    position: absolute;
+    left: 20px;
+}
+.p9{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.p10{
+    position: absolute;
+    top: 105px;
+    font-size: 15px;
+    left: 6px;
+}
+.p11{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+.btn4{
+    position: absolute;
+    top: 190px;
+    right: 20px;
+    border-radius: 12px;
+    border: none;
+    height: 25px;
+    background: #35858B;
+}
+.btn4 a{
+    color: white;
+    text-decoration: none;
+}
+.div5{
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.header2{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.p12{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.p13{
+    position: absolute;
+    top: 110px;
+    font-size: 15px;
+    left: 6px;
+}
+.p14{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+.btn5{
+    position: absolute;
+    top: 195px;
+    right: 20px;
+    border-radius: 12px;
+    border: none;
+    height: 25px;
+    background: #35858B;
+}
+.btn5 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* styling the modal section */
+
+.modal{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background: white;
+    width: 600px;
+    height: 1300px;
+   visibility: hidden;
+   z-index: 10;
+   /*transform: translate3d( 0 , -100% ,0);*/
+    
+
+}
+.active{
+    visibility: visible;
+  /*  transform: translate3d(0,0,0);*/
+  /*  transition: 0.5ms ease-out;*/
+}
+.close{
+    visibility: hidden;
+}
+
+.x-btn{
+    width: 30px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+.linee1,
+.linee2,
+.linee3{
+    width: 100%;
+    height: 5px;
+    background: black;
+    margin: 5px;
+    
+}
+.linee1{
+    transform: rotate(45deg) translate(7px, 7px);
+}
+.linee2{
+    opacity: 0;
+}
+.linee3{
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+
+.header3{
+    position: absolute;
+    left: 45px;
+    top: 30px;
+}
+.p15{
+    position: absolute;
+    left: 42px;
+    top: 66px;
+}
+.div6{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border: 2px solid grey;
+    border-radius: 10px;
+    
+}
+
+.p16{
+    position: absolute;
+    left: 90px;
+    top: 10px;
+}
+.in1{
+    position: absolute;
+    left: 30px;
+    top: 22px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.p17{
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    font-size: 13px;
+}
+.lbl1{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    color: #35858B;
+}
+.in5{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    border: 1px solid  #35858B;
+    outline: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+}
+.btn6{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    background: #79ebf3;
+}
+.btn6:hover{
+    background: #35858B;
+}
+.minidiv6{
+    width: 500px;
+    height: 70px;
+    background:white;
+    border-radius: 10px;
+    position: absolute;
+    top: 130px;
+    visibility: hidden;
+}
+.selected{
+    visibility: visible;
+}
+.notselected{
+    visibility: hidden;
+}
+
+
+.div7{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border: 2px solid grey;
+    border-radius: 10px;
+
+}
+
+.in2{
+    position: absolute;
+    left: 20px;
+    top: 22px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.header4{
+   position: absolute;
+   left: 50px;
+   top: 5px;
+}
+.p18{
+    position: absolute;
+    left: 230px;
+    top: 15px;
+}
+.p19{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.p20{
+    position: absolute;
+    top: 100px;
+    font-size: 15px;
+    left: 10px;
+}
+.lbl2{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    color:  #35858B;;
+}
+.in6{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    border: 1px solid  #35858B;
+    outline: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+}
+.btn7{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    background: #79ebf3;
+}
+.btn7:hover{
+    background: #35858B;
+
+}
+.minidiv7{
+    width: 500px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 170px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.selected{
+    visibility: visible;
+}
+.div8{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.in3{
+    position: absolute;
+    left: 20px;
+    top: 22px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.header5{
+    position: absolute;
+    left: 50px;
+    top: 5px;
+}
+.p21{
+    position: absolute;
+    left: 280px;
+    top: 15px;
+}
+.p22{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.p23{
+    position: absolute;
+    top: 100px;
+    font-size: 15px;
+    left: 20px;
+}
+.lbl3{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    color: #35858B;
+}
+.in7{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    border: 1px solid  #35858B;
+    outline: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+}
+.btn8{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    background: #79ebf3;
+}
+.btn8:hover{
+    background: #35858B;
+}
+.minidiv8{
+    width: 500px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 170px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.selected{
+    visibility: visible;
+}
+.div9{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.in4{
+    position: absolute;
+    left: 20px;
+    top: 22px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.header6{
+    position: absolute;
+    left: 50px;
+    top: 5px;
+}
+.p24{
+    position: absolute;
+    left: 325px;
+    top: 15px;
+}
+.p25{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+.p26{
+    position: absolute;
+    top: 100px;
+    font-size: 15px;
+    left: 20px;
+    
+}
+.lbl4{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    color:  #35858B;
+}
+.in8{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    border: 1px solid  #35858B;
+    outline: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+}
+.btn9{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    background: #79ebf3;
+}
+.btn9:hover{
+    background: #35858B;
+}
+.minidiv9{
+    width: 500px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 170px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.selected{
+    visibility: visible;
+}
+
+.congratsdiv{
+    width: 350px;
+    height: 300px;
+    background: rgb(226, 226, 226);
+    position: relative;
+    left: 130px;
+    top: 350px;
+    visibility: hidden;
+    z-index: 3;
+}
+.congrats{
+    visibility: visible;
+}
+.congratsdone{
+    visibility: hidden;
+}
+.checklogo{
+    position: absolute;
+    left: 130px;
+    top: 30px;
+    width: 150px;
+    height: 100px;
+}
+.header7{
+    position: absolute;
+    left: 75px;
+    top: 100px;
+    color: #000;
+}
+.p27{
+    font-size: 12px;
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+.btn10{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    background: #79ebf3;
+    position: absolute;
+    left: 130px;
+    top: 240px;
+}
+
